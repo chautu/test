@@ -3458,9 +3458,7 @@ section.hero{
 
 
   /* ---------- Footer ---------- */
-  #footer {
-    padding: 80px 0 160px;
-  }
+
   #footer .sublink {
     display: flex;
     align-items: center;
