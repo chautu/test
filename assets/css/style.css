@@ -2578,7 +2578,7 @@ section.hero{
   .sec02-item{
     flex-wrap: wrap;
     border-radius: 3px;
-    filter: drop-shadow(0 5px 10px rgba(51, 51, 51, 0.05));
+    box-shadow: 0 5px 10px rgba(51, 51, 51, 0.05);
   }
   .sec02-item_img{
     width: 100%;
@@ -2631,7 +2631,7 @@ section.hero{
   .swiper-btn{
     position: relative;
     top: 0;
-    left: 0;
+    left: -4.9%;
     width: 100%;
   }
   .sec02-style {
@@ -2648,13 +2648,13 @@ section.hero{
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
-    line-height: 30px; /* 60% */
+    line-height: 32px; /* 60% */
   }
   .sec02-group .swiper-btn .swiper-pagination-bullet {
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
-    line-height: 30px; /* 92.308% */
+    line-height: 32px; /* 92.308% */
     padding-bottom: 12px;
   }
   .sec02-group .swiper-btn .swiper-pagination-bullet+.swiper-pagination-bullet {
@@ -2769,6 +2769,7 @@ section.hero{
     padding-left: calc(4.8% + 40px);
     padding-right: calc(4.8% + 19px);
     padding-bottom: 0px;
+    margin-top: -35px;
   }
   .sec03-item-txt p {
     font-size: 14px;
@@ -3098,7 +3099,7 @@ section.hero{
     border-radius:4px;
     background: #FFF;
     overflow: hidden;
-    filter: drop-shadow(0 5px 10px rgba(51, 51, 51, 0.05));
+    box-shadow: 0 5px 10px rgba(51, 51, 51, 0.05);
   }
   .sec06-item-group {
     padding: 40px 20px 64px 20px;
