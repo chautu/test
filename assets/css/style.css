@@ -78,10 +78,8 @@ h1{
 .hero-body{
   position: relative;
 }
-.hero{
-  position: sticky;
-  top: 0;
-  z-index: 1;
+.sec03{
+      margin-top: -1px;
 }
 .sec01,
 .sec02,
@@ -282,11 +280,13 @@ section.hero{
   font-weight: 700;
   line-height: 22px; /* 157.143% */
   letter-spacing: 0.56px;
+  margin-top: 8px;
 }
 .sec01_item-inf {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: calc(100% - 216px);
 }
 .sec01_item-nub{
   display: flex;
@@ -684,6 +684,9 @@ section.hero{
   font-style: normal;
   font-weight: 700;
   line-height: 24px; /* 120% */
+}
+.sec04-item02 .sec04-item-name{
+  color: #132B40;
 }
 .sec04-item-sub{
   margin-top: 16px;
@@ -1157,8 +1160,12 @@ section.hero{
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
+   line-height: 29.963px;
   letter-spacing: 1.8px;
+  /* width: 50%;
+  text-align: center; */
+  width: calc(100% - 333px);
+  text-align: center;
 }
 .sec07-result-txt span{
   font-family: "Roboto Flex", sans-serif;
@@ -1171,6 +1178,7 @@ section.hero{
 .sec07-result-group01-right{
   width: fit-content;
   padding: 20px;
+  min-width: 304px;
   border-radius: 3px;
   background: #FFF;
 }
@@ -1281,6 +1289,7 @@ section.hero{
   width: 20px;
   height: 10px;
   aspect-ratio: 2/1;
+  transform: rotate(180deg);
 }
 .faq-item .faq-head::after {
   opacity: 0;
@@ -1290,7 +1299,7 @@ section.hero{
   width: 20px;
   height: 10px;
   aspect-ratio: 2/1;
-  transform: rotate(180deg);
+  
 }
 .faq-item .faq-head::after{
   top:calc(50% - 5px);
@@ -1377,6 +1386,7 @@ section.hero{
   font-size: 50px;
   font-style: normal;
   font-weight: 700;
+  margin: 0px 5px;
   line-height: normal;
 }
 .sec08-btn{
@@ -1518,7 +1528,7 @@ section.hero{
 }
 #footer .ft-info .office dl {
   margin: 0 30px;
-  font-size: 14px;
+  font-size: 16px;
 }
 #footer .ft-info .office dl span.br {
   padding-right: 12px;
@@ -1526,7 +1536,7 @@ section.hero{
 #footer .ft-info .office dl .freedial {
   font-size: 16px;
   font-weight: 700;
-  font-family: "DM Sans", "Zen Kaku Gothic New", "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "游ゴシック Medium", "Yu Gothic Medium", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Meiryo", "メイリオ", Helvetica, sans-serif;
+  font-family: "DM Sans", sans-serif;
   letter-spacing: 0;
 }
 #footer .ft-info .office dl .freedial img {
@@ -2383,6 +2393,10 @@ section.hero{
   font-weight: 700;
   letter-spacing: 0;
   vertical-align: middle;
+}
+.sec07 .sec-title span{
+  margin-left: 5px;
+  margin-right: 5px;
 }
 @media screen and (max-width:768px){
   .pc{
@@ -3282,6 +3296,7 @@ section.hero{
     width: 100%;
     padding: 16px 23px 16px 23px;
     border-radius: 3px;
+    min-width: 100%;
   }
   .sec07-resul-txt01 {
     padding: 0px 13px 0px 13px;
@@ -3312,7 +3327,7 @@ section.hero{
     letter-spacing: 0.7px;
   }
   .sec08-btn {
-    margin-top: 24px;
+    margin-top: 40px;
   }
   .sec08-btn-sub {
     font-size: 12px;
@@ -3382,19 +3397,25 @@ section.hero{
   }
   .faq-head-group{
     gap: 8px;
+    align-items: start;
   }
   .faq-head-q, .faq-answer-a {
     font-size: 18px;
     font-style: normal;
     font-weight: 900;
-    line-height: normal;
+    line-height: 1;
     letter-spacing: 0.72px;
+    padding-top: 1px;
+  }
+  .faq-answer-a {
+    padding-top: 6px;
   }
   .faq-head-txt {
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    padding-right: 42px;
     letter-spacing: 0.56px;
   }
   .faq-answer-txt {
@@ -3408,6 +3429,7 @@ section.hero{
     margin-top: 24px;
     padding-top: 24px;
     gap: 8px;
+    align-items: start;
   }
   .faq-item.active {
     margin-bottom: 32px;
@@ -3610,6 +3632,15 @@ section.hero{
    transform: translateY(0px);
     opacity: 1;
   }
+  #pagetop a:hover i {
+    transform: translateY(-1px);
+  }
+  .sec01_item-inf{
+    width: calc(100% - 146px);
+  }
+  .sec02-item_group-item.item01{
+    margin-top: 32px;
+  }
 }
 .fv_swiper .swiper-slide-active img{
     animation: fvSlideIn 1.5s ease forwards;
@@ -3623,3 +3654,5 @@ section.hero{
         transform: translateX(0);
     }
 }
+
+
