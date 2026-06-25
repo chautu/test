@@ -724,8 +724,9 @@ section.hero{
 }
 
 .sec05{
-  background: url(../img/sec05/bg.jpg) no-repeat;
-  background-size: 100% 100%;
+    background: url(../img/sec05/bg_sp.webp) no-repeat;
+    background-size: calc(100% + 4px) calc(100% + 6px);
+    background-position: center center;
 }
 .sec05 .sec-body{
   padding: 129px 0px 126px 0px;
@@ -2685,8 +2686,9 @@ section.hero{
     padding-bottom: 12px;
   }
   .sec02 {
-    background: url(../img/sec02/bg_sp.jpg) no-repeat;
-    background-size: 100% 100%;
+    background: url(../img/sec02/bg_sp.webp) no-repeat;
+    background-size: calc(100% + 4px) calc(100% + 6px);
+    background-position: center center;
   }
   .sec02 .swiper-slide {
     /* height: 100% !important; */
@@ -2894,8 +2896,9 @@ section.hero{
     letter-spacing: 0.7px;
   }
   .sec04 {
-    background: url(../img/sec02/bg_sp.jpg) no-repeat;
-    background-size: 100% 100%;
+    background: url(../img/sec02/bg_sp.webp) no-repeat;
+    background-size: calc(100% + 4px) calc(100% + 4px);
+    background-position: center center;
   }
 
 
@@ -3177,8 +3180,9 @@ section.hero{
     top: calc(50% - 4px);
   }
   .sec06 {
-      background: url(../img/sec02/bg_sp.jpg) no-repeat;
-      background-size: 100% 100%;
+  background: url(../img/sec02/bg_sp.webp) no-repeat;
+    background-size: calc(100% + 4px) calc(100% + 6px);
+    background-position: center center;
   }
 
   .sec07 .sub-title {
